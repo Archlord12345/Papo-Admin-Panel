@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import { Archive, Plus, RefreshCw } from 'lucide-react';
 import { dataService, type Post, type PostStatus } from '../lib/supabase';
 
